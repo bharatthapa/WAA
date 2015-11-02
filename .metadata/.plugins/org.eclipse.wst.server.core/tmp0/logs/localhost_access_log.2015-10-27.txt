@@ -1,0 +1,5 @@
+127.0.0.1 - - [27/Oct/2015:17:42:49 -0500] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [27/Oct/2015:17:43:05 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [27/Oct/2015:17:43:09 -0500] "GET /Lab9_Internationalization_Validity/ HTTP/1.1" 200 473
+0:0:0:0:0:0:0:1 - - [27/Oct/2015:17:43:12 -0500] "GET /Lab9_Internationalization_Validity/registration HTTP/1.1" 200 1805
+0:0:0:0:0:0:0:1 - - [27/Oct/2015:17:43:15 -0500] "POST /Lab9_Internationalization_Validity/registration HTTP/1.1" 200 2808

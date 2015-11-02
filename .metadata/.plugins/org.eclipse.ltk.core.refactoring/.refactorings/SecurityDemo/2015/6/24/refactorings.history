@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;mum.edu.interceptor&apos; to &apos;Lab10_FinalExamJPA/src&apos;&#x0D;&#x0A;- Original project: &apos;SecurityDemo&apos;&#x0D;&#x0A;- Destination element: &apos;Lab10_FinalExamJPA/src&apos;&#x0D;&#x0A;- Original element: &apos;SecurityDemo/src/mum.edu.interceptor&apos;" description="Copy package" destination="=Lab10_FinalExamJPA/src" element1="/src&lt;mum.edu.interceptor" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1434001533720" version="1.0"/>
+</session>

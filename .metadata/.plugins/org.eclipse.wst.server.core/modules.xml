@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Hello" serverId="Pivotal tc Server Developer Edition v3.1"/>
+  <module moduleId="org.eclipse.jst.jee.server:FirstSpringMVCProject" serverId="Pivotal tc Server Developer Edition v3.1"/>
+  <module moduleId="org.eclipse.jst.jee.server:AssessmentSystem" serverId="Pivotal tc Server Developer Edition (Runtime) v3.1 at localhost"/>
+</modules>

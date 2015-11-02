@@ -1,0 +1,4 @@
+1433998979111	Move 'applicationContext.xml' to 'webcontext'
+1433999137274	Move 'applicationContext.xml' to 'WebContent'
+1433999149972	Move 'applicationContext.xml' to 'WEB-INF'
+1434001573879	Rename package 'mum.edu.interceptor'
