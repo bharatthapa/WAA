@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="FinalExamJPA"/>
-<aop-project name="AssessmentSystem"/>
-<aop-project name="Lab9_Internationalization_Validity"/>
-<aop-project name="WelcomeKemosabes"/>
+<aop-project name="testCarpool">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="53" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#testCarpool#src/main/webapp/WEB-INF/spring/application-context.xml#53" aspect-start-line-number="53" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/testCarpool/src/main/webapp/WEB-INF/spring/application-context.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:testCarpool|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:beans:12|7:context:component-scan:31|8:userServiceImpl:31" bean-file="/testCarpool/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="31" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/testCarpool/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=testCarpool/C:\/Users\/Bharat\/.m2\/repository\/org\/springframework\/spring-tx\/3.1.4.RELEASE\/spring-tx-3.1.4.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=testCarpool/src\/main\/java&lt;np.com.carpool.serviceimpl{UserServiceImpl.java[UserServiceImpl~add~QUser;" target-start-line="23"/>
+</aspect-definition>
+</aop-project>
 </aop-reference-model>

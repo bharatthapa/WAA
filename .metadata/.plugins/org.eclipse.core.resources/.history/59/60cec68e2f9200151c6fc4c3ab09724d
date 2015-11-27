@@ -1,0 +1,10 @@
+package com.edu.carpool;
+
+import javax.persistence.Entity;
+
+@Entity
+public class WebServiceController {
+	
+
+
+}

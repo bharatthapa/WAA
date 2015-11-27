@@ -1,0 +1,16 @@
+package np.com.carpool.test;
+
+import np.com.carpool.service.UserService;
+
+import org.junit.Test;
+
+public class UserServiceTest extends BaseTest {
+	
+	UserService userService;
+	
+	@Test
+	public void addTest(){
+		
+	}
+
+}

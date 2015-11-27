@@ -1,0 +1,6 @@
+package np.com.carpool.test;
+
+
+public abstract class BaseTest {
+
+}

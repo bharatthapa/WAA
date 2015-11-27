@@ -1,0 +1,14 @@
+package com.edu.carpool;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+@Entity
+public class WebServiceController {
+
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Id id;
+	
+
+}

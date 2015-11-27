@@ -1,0 +1,18 @@
+package np.com.carpool.test;
+
+import np.com.carpool.service.UserService;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class UserServiceTest extends BaseTest {
+	
+	@Autowired
+	private UserService userService;
+	
+	@Test
+	public void addTest(){
+		
+	}
+
+}

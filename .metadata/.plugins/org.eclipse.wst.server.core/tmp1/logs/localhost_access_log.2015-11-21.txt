@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:35:48 -0600] "GET /carpool/register HTTP/1.1" 405 1045
+127.0.0.1 - - [21/Nov/2015:09:56:54 -0600] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:56:56 -0600] "GET /carpool/ HTTP/1.1" 200 10713
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:56:56 -0600] "GET /carpool/resources/js/index.js HTTP/1.1" 200 2947
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:56:56 -0600] "GET /carpool/resources/css/normalize.css HTTP/1.1" 200 2101
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:56:56 -0600] "GET /carpool/resources/css/style.css HTTP/1.1" 200 14482
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:07 -0600] "POST /carpool/register HTTP/1.1" 415 1048
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:12 -0600] "POST /carpool/register HTTP/1.1" 415 1048
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:13 -0600] "POST /carpool/register HTTP/1.1" 415 1048
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:27 -0600] "GET /carpool/ HTTP/1.1" 200 10713
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:27 -0600] "GET /carpool/resources/js/index.js HTTP/1.1" 200 2947
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:27 -0600] "GET /carpool/resources/css/style.css HTTP/1.1" 200 14482
+0:0:0:0:0:0:0:1 - - [21/Nov/2015:09:57:27 -0600] "GET /carpool/resources/css/normalize.css HTTP/1.1" 200 2101

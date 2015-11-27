@@ -2,5 +2,8 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:Hello" serverId="Pivotal tc Server Developer Edition v3.1"/>
   <module moduleId="org.eclipse.jst.jee.server:FirstSpringMVCProject" serverId="Pivotal tc Server Developer Edition v3.1"/>
+  <module moduleId="org.eclipse.jst.jee.server:Lab10_FialExamJPA" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Lab10_FinalExamJPA" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:AssessmentSystem" serverId="Pivotal tc Server Developer Edition (Runtime) v3.1 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:carpool" serverId="Tomcat v7.0 Server at localhost"/>
 </modules>

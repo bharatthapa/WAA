@@ -1,0 +1,84 @@
+package np.com.carpool.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Transient;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
+@Entity(name = "users")
+public class User implements Serializable {
+
+	private static final long serialVersionUID = -8624607622331341029L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	
+	@NotEmpty(message ="{}")
+	@Column(name = "username")
+	private String username;
+	
+	@NotEmpty
+	@Column(name = "password")
+	private String password;
+
+	@Transient
+	private String pwdRepeat;
+
+	private boolean enabled;
+
+	@Enumerated(EnumType.STRING)
+	private Role role;
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public String getPwdRepeat() {
+		return pwdRepeat;
+	}
+
+	public void setPwdRepeat(String pwdRepeat) {
+		this.pwdRepeat = pwdRepeat;
+	}
+
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+
+	public Role getRole() {
+		return role;
+	}
+
+	public void setRole(Role role) {
+		this.role = role;
+	}
+
+	public enum Role {
+		ROLE_ADMIN, ROLE_USER
+	}
+}

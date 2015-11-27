@@ -1,4 +1,4 @@
-package emp.mum.webstore.service.impl;
+/*package emp.mum.webstore.service.impl;
 
 import java.util.List;
 
@@ -70,3 +70,4 @@ class EmployeeServiceImpl implements EmployeeService {
     }
 
 }
+*/
